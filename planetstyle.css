@@ -1,8 +1,7 @@
 body {
-	/* background-image: url("https://www.xtrafondos.com/wallpapers/astronauta-perdido-en-el-espacio-5498.jpg"); */
+	background-image: url("https://www.xtrafondos.com/wallpapers/astronauta-perdido-en-el-espacio-5498.jpg");
 	background-size: 100vw;
 	backdrop-filter: blur(2px);
-	background-color: black;
 }
 
 h1 {

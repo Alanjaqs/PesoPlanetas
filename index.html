@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image-x/icon" href="earth.ico">
+	<link rel="stylesheet" type="text/css" href="planetstyle.css">
+	<title>Peso Planetas</title>
+</head>
+<body>
+	<h1>★ CALCULADOR DE PESO EN PLANETAS ★</h1>
+  <div id="divprin">
+	<div class="divul">
+		<ul><strong>
+			<li>Escribe tu peso en el lugar indicado</li>
+			<li>Elige el planeta que quieras</li>
+			<li>Haz click en el botón calcular</li>
+		</strong></ul>
+	</div>
+	<h3>Escriba su peso en kilogramos</h3>
+	<div class="input1">
+		<form>
+			<input type="number" placeholder="Peso" id="pesoX">
+			<input type="button" value="Calcular" onclick="obtenerPeso()">
+		</form>
+	</div>
+	<div id="planetas">
+		<strong>
+			<label for="opcionmer"><input id="opcionmer" name="planetsel" checked type="radio">MERCURIO G: 3.7 m/s²</label><br>
+			<label for="opcionven"><input id="opcionven" name="planetsel" type="radio">VENUS G: 8.87 m/s²</label><br>
+			<label for="opcionmar"><input id="opcionmar" name="planetsel" type="radio">MARTE G: 3.71 m/s²</label><br>
+			<label for="opcionjup"><input id="opcionjup" name="planetsel" type="radio">JUPITER G: 24.79 m/s²</label><br>
+			<label for="opcionsat"><input id="opcionsat" name="planetsel" type="radio">SATURNO G: 10.44 m/s²</label><br>
+			<label for="opcionura"><input id="opcionura" name="planetsel" type="radio">URANO G: 8.69 m/s²</label><br>
+			<label for="opcionnep"><input id="opcionnep" name="planetsel" type="radio">NEPTUNO G: 11.15 m/s²</label><br>
+		</strong>
+	</div>
+	<div>
+		<p id="pesoObtenido">Resultado</p>
+	</div>
+  </div>	
+	<footer><br>
+		<h6 align="center"><strong>2022 - Alan Jaques</strong></h6>
+	</footer>
+	<script type="text/javascript" src="planetscript.js"></script>
+</body>
+</html>
